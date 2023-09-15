@@ -3,7 +3,7 @@ import { Avatar } from "@readyplayerme/visage";
 import { useState } from "react";
 
 const config: AvatarCreatorConfig = {
-  clearCache: true,
+  clearCache: false,
   bodyType: 'fullbody',
   quickStart: false,
   language: 'en',
@@ -20,7 +20,7 @@ export default function App() {
   return (
       <div>
 
-        <AvatarCreator subdomain="demo" config={config} style={style} onAvatarExported={handleOnAvatarExported} />
+        <AvatarCreator subdomain="sims-nslw60" config={config} style={style} onAvatarExported={handleOnAvatarExported} />
         {avatarUrl && <Avatar modelSrc={avatarUrl} />}
       
       </div>
