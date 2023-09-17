@@ -26,6 +26,8 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
+
+# STEP TO RUN PROJECT IN LOCAL MACHINE
 ```
 step 1: git clone https://github.com/finalYearProjectkce/MetaOntology.git
 step 2 : cd MetaOntology && npm install
