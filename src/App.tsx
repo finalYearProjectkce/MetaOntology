@@ -18,11 +18,9 @@ export default function App() {
   };
 
   return (
-      <div>
-
+      <div >
         <AvatarCreator subdomain="sims-nslw60" config={config} style={style} onAvatarExported={handleOnAvatarExported} />
         {avatarUrl && <Avatar modelSrc={avatarUrl} />}
-      
       </div>
   );
 }
